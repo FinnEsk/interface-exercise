@@ -11,7 +11,7 @@ public class Word extends OrderedThing implements SequentiallyOrdered{
 
     public Word(String newChar, int position){
         
-    
+        
         for(char c : newChar.toCharArray()){
             this.characters.add(new Character(c));
         }
