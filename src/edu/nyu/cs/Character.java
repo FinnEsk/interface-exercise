@@ -11,7 +11,4 @@ public class Character extends OrderedThing {
         this.letter = letter;
     }
 
-    public OrderedThing getFirst(){
-        return 
-    }
 }

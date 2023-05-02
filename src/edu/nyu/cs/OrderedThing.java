@@ -4,8 +4,9 @@ import java.util.ArrayList;
 
 public abstract class OrderedThing {
     
-    public abstract Character getFirst(Word word);
-    public abstract Character getLast(Word word);
-    public abstract ArrayList<OrderedThing> getSequence(Word word);
+    protected Word word;
+    //public abstract Character getFirst(Word word);
+    //public abstract Character getLast(Word word);
+    //public abstract ArrayList<OrderedThing> getSequence(Word word);
     
 }
